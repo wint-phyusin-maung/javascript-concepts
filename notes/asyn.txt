@@ -1,0 +1,22 @@
+asynchronous -> တပြိုင်နက်တည်း
+Start something now and finish it later
+(callback)
+
+
+action1
+action2--->take time **ok**    
+action3
+
+action1 
+action3
+callback->action2
+
+
+synchronous 
+(What is difference between synchronous and asynchronous programming?
+While synchronous processing is done sequentially and in a specific order,
+asynchronous processing is done in parallel. Tasks that are not dependent on others can be offloaded and
+executed at the same time as the main operation and then report back the result when they are done.)
+
+Single Threaded
+(the execution of an entire task from beginning to end without interruption)
