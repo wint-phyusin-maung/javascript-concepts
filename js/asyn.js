@@ -10,6 +10,10 @@ const request = new XMLHttpRequest(); //request object
 
 request.addEventListener('readystatechange',() => {
       console.log(request,request.readyState);
+      //state 4 means open,send,loading,done
+      if(request.readyState === 4){
+        console.log(request.responseText);
+      }
 });
 
 request.open('GET','https://jsonplaceholder.typicode.com/todos/');
