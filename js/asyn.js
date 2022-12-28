@@ -10,9 +10,11 @@ const request = new XMLHttpRequest(); //request object
 
 request.addEventListener('readystatechange',() => {
       console.log(request,request.readyState);
-      //state 4 means open,send,loading,done
-      if(request.readyState === 4){
+      //state 4 means open,send,loading,done 
+      if(request.readyState === 4 && request.status === 200){
         console.log(request.responseText);
+      }else if(request.readyState === 4){
+        console.log('Fetching data was wrong.Try again.')
       }
 });
 
