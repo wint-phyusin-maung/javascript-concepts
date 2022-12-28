@@ -20,3 +20,9 @@ executed at the same time as the main operation and then report back the result 
 
 Single Threaded
 (the execution of an entire task from beginning to end without interruption)
+
+
+HTTP Requests
+-Make HTTP requests to get data from another server
+-We make these requests to API endpoints
+
