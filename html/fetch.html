@@ -8,6 +8,9 @@
 </head>
 <body>
 
+    <input type="text" name="name"/>
+    <button type="submit">Add</button>
+
     <h1>Category List</h1>
     <ul></ul>
     
@@ -19,6 +22,20 @@
         .then(json => {
             json.map(data => createElement(data));
         });
+
+        document.querySelector("button").onclick = () => {
+            let name = document.querySelector("input").value;
+
+            fetch(`${apiBase}/categories`,{
+                method : "POST",
+                headers: {
+                    "Content-Type" : "application/json"
+                },
+                body: JSON.stringify({name})
+            })
+            .then(res => res.json())
+            .then(json => createElement(json));
+        }
 
         function createElement(data){
             let li = document.createElement("li");
