@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Category List</h1>
+    <ul></ul>
+    
+    <script>
+        const apiBase = "http://localhost:8000/api";
+
+        fetch(`${apiBase}/categories`)
+        .then(res => res.json())
+        .then(json => {
+            json.map(data => createElement(data));
+        });
+
+        function createElement(data){
+            let li = document.createElement("li");
+            li.textContent = data.name;
+            document.querySelector("ul").appendChild(li);
+        }
+    </script>
+</body>
+</html>
+
+
