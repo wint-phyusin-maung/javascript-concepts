@@ -4,3 +4,13 @@ for (let i = 0 ; i <= 5 ; i ++){
     }
    console.log("\n");
 }
+
+
+//ARRAY REVERSE
+
+function arrays(nums){
+    return nums.reverse();
+}
+
+
+console.log(arrays([1,2,3,4,5]));
