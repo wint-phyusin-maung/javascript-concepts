@@ -16,7 +16,9 @@
         </div>
     </nav>
 
-    <div class="contaner mt-4 m-auto" style="max-width:600px;">
+    <div class="container mt-4 m-auto" style="max-width:600px;">
+        
+
 
         <div class="container mt-4">
             <div class="input-group">
@@ -36,7 +38,13 @@
     <script>
         const apiBase = "http://localhost:8000/api";
 
-        fetch(`${apiBase}/categories`)
+
+
+        fetch(`${apiBase}/categories`,{
+            headers: {
+                "Authorization" : "Bearer 1|MUPsyK8aGOWFVh6JHNTnfSoZm4Qw5aifNmt0o8xE"
+            }
+        })
         .then(res => res.json())
         .then(json => {
             json.map(data => createElement(data));
@@ -72,7 +80,7 @@
                 li.querySelector("span").textContent = name;
 
                 fetch(`${apiBase}/categories/${data.id}`,{
-                method : "PUT",
+                method : "PUT",  
                 headers: {
                     "Content-Type" : "application/json"
                 },
