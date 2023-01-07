@@ -1,0 +1,8 @@
+Data Structures And Algorithms
+
+
+Data Structures = different ways of storing data on your computer
+
+Algorithms = operations on different data Structures
+
+..sets of instructions for execution them
