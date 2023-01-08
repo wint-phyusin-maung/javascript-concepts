@@ -1,14 +1,15 @@
-//Javascript is a loosely Typed language
-var a;
-console.log(typeof a);
+// //Javascript is a loosely Typed language
+// var a;
+// console.log(typeof a);
 
-var i = 23;
-let j = 23;
+// var i = 23;
+// let j = 23;
 
-console.log(this.i);
-console.log(this.j);
+// console.log(this.i);
 
-{
-    var gh  = 'hello';
+
+for(let i = 0 ; i < 4 ; i++){
+   for(let j = 0; j < 4 ; j++){
+    console.log('*');
+   }
 }
-console.log(gh);
