@@ -20,5 +20,11 @@ BREAK INTO PIECES
 
 A CREATIVE IDEA 
 
+DATA TYPES 
+// primitive type 
+.character .number .boolean .string
+
+
+PSEUDOCODE => CODE EXAMPLE TO EXPLAIN
 
 

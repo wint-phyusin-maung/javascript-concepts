@@ -39,3 +39,7 @@ ECMAScript is  a JavaScript standard
 
 
 VARIABLE HOSTING -> variable lifting 
+
+
+DATA TYPES
+Statically Typed Language / Loosely Typed Language
