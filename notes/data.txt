@@ -26,8 +26,12 @@ WHY STUDY DATA STRUCTURES AND ALGORITHMS
 
 Algorithms + Data Structures = Programs(Prentice-Hall)
 
+---------------------------------(822)
+letvsvar 
 
-
-
+let allows you to declare variables that are limited to the scope of a block statement
 
 LET -> declares a block-scoped local variable 
+
+Unlike var..let does not create a property of the global object
+
