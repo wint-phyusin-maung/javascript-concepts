@@ -10,11 +10,12 @@ Algorithms = operations on different data Structures
 
 Shells 
 
- JavaScript shell that is part of
+JavaScript shell that is part of
 Mozilla’s comprehensive JavaScript environment known as SpiderMonkey
 
 A JavaScript shell allows you to quickly test snippets of JavaScript code without having to reload a web page. They are extremely useful for developing and debugging code.
 
+-------------------------
 Arrays and Lists: the most common data structures
 
 Classic data structures such as linked lists, stacks, queues, and graphs
@@ -28,3 +29,5 @@ Algorithms + Data Structures = Programs(Prentice-Hall)
 
 
 
+
+LET -> declares a block-scoped local variable 
