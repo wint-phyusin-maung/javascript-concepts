@@ -43,3 +43,9 @@ VARIABLE HOSTING -> variable lifting
 
 DATA TYPES
 Statically Typed Language / Loosely Typed Language
+
+//Decision Constructs
+--The simple  if statement
+--The if-else statement
+--The if-else if statement
+
