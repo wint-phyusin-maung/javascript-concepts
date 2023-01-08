@@ -35,3 +35,7 @@ LET -> declares a block-scoped local variable
 
 Unlike var..let does not create a property of the global object
 
+ECMAScript is  a JavaScript standard
+
+
+VARIABLE HOSTING -> variable lifting 

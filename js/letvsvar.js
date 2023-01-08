@@ -59,3 +59,11 @@ if(true){
     console.log(user);//Maung Tun
 }
 console.log(user);//Maung Tun
+
+//Variable hosting
+
+let water;
+water = "oxygen";
+console.log(water);
+
+
