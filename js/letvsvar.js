@@ -38,4 +38,24 @@ console.log(this.x); // expect result "global" but I got undefined
 console.log(this.y); // undefined
 
 
+//can use outside the block 
+{
+    var num1 = 3; 
 
+}
+console.log(num1);
+console.log(num1+2);
+
+
+if(true){
+  let  admin = 'Moe Moe';
+  console.log(admin);//Moe Moe
+}
+
+//console.log(admin);//admin is not defined
+
+if(true){
+    var user = "Maung Tun";
+    console.log(user);//Maung Tun
+}
+console.log(user);//Maung Tun
