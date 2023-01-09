@@ -15,5 +15,4 @@ function factorial(number){
 }
 
 console.log(factorial(4));
-//how to 
-//and try to understand
+
