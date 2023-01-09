@@ -49,3 +49,15 @@ Statically Typed Language / Loosely Typed Language
 --The if-else statement
 --The if-else if statement
 
+
+Type Juggling -> CHANGE DATA BECAUSE OF THE Language
+
+Type Coercion -> "3" == 3
+
+Special Data Types 
+not defined types -> undefined 
+not value -> null
+
+falsy -> 0 "" null undefined NaN
+
+

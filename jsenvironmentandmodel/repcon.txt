@@ -1,0 +1,12 @@
+Repetition Constructs
+
+while loop and for loop
+
+FUNCTIONS 
+
+both value-returning functions 
+functions that don't return values 
+(called subprocedures or void functions)
+
+
+

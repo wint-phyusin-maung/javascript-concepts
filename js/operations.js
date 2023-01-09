@@ -44,3 +44,23 @@ switch(month){
     default:
         console.log('I do not know your birthday.');
 }
+
+//while loop
+var number = 1;
+var sum = 0;
+while(number < 11){
+    sum += number;
+    ++number;
+}
+
+console.log(sum);
+
+let myValue;
+console.log(myValue);
+
+console.log(3 == "3");
+
+let name = "Khin";
+let age = 35;
+let greet = `${name} and ${age}`;
+console.log(greet);
