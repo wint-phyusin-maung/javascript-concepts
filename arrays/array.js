@@ -14,3 +14,9 @@ console.log(defineArray);//10 empty items
 
 var differentTypes = ['Heloa','more',false,33,2.25];
 console.log(differentTypes);
+
+//verify array
+var nums = 3;
+var array = [3,52,1];
+console.log(Array.isArray(nums));
+console.log(Array.isArray(array));
