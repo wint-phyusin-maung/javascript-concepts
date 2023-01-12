@@ -27,3 +27,13 @@ for(var i = 0 ; i < 100; i++){
     mynums[i] = i + 1;
 }
 console.log(mynums);
+
+//my examples 
+var othernums = [];
+var count = 35;
+if(count > 21){
+    for(let i = 0 ; i < 32 ; i ++){
+        othernums[i] = i * 2;
+    }
+}
+console.log(othernums);
