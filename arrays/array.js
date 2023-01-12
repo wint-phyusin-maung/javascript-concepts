@@ -20,3 +20,10 @@ var nums = 3;
 var array = [3,52,1];
 console.log(Array.isArray(nums));
 console.log(Array.isArray(array));
+
+//accessing and writing array elements
+var mynums = [];
+for(var i = 0 ; i < 100; i++){
+    mynums[i] = i + 1;
+}
+console.log(mynums);
