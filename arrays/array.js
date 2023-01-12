@@ -11,3 +11,6 @@ console.log(alGeNum);
 
 var defineArray = new Array(10);
 console.log(defineArray);//10 empty items
+
+var differentTypes = ['Heloa','more',false,33,2.25];
+console.log(differentTypes);
