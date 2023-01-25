@@ -10,5 +10,10 @@ if(position >= 0)
 }
 
 var namestr = names.toString();
-console.log(namestr);
-console.log(names);
+// console.log(namestr);
+// console.log(names);
+
+var boomings = ["Separate",'Split','Go down'];
+var bot = ['Sing'];
+var boomingsBot = bot.concat(boomings);
+console.log(boomingsBot);
