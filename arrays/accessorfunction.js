@@ -9,6 +9,6 @@ if(position >= 0)
     //console.log(name + " not found in array.");
 }
 
-var namestr = names.join();
+var namestr = names.toString();
 console.log(namestr);
 console.log(names);
