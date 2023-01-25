@@ -37,5 +37,18 @@ let stringToArray  = string.split(" ");
 
 for(let i = 0  ; i < stringToArray.length ; i++)
 {
-    console.log(`Words' ${i} ${stringToArray[i]}`); 
+    //console.log(`Words' ${i} ${stringToArray[i]}`); 
 }
+
+
+//how to get the total/aggregate array operations
+
+let sum = [];
+for(let i = 0 ; i < 50; i ++)
+{
+    sum[i]  = i + 1;
+}
+
+let copysum = sum;
+sum[2] = 32;
+console.log(copysum);
