@@ -52,3 +52,13 @@ for(let i = 0 ; i < 50; i ++)
 let copysum = sum;
 sum[2] = 32;
 console.log(copysum);
+
+
+function copy(arr1,arr2){
+    for(var i  = 0; i < arr1.length ; i++)
+    {
+        arr2[i] = arr1[i];
+        console.log(arr2[i]);
+    }
+}
+copy(sum,copysum);
