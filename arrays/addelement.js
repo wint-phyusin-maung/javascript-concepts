@@ -25,7 +25,17 @@ let difElements = [1,2,3,4,5,6,7,8,9,10];
 for(let i = 0 ; i < difElements.length ; i++)
 {
     difElements[i] = i;
-    console.log(difElements[i]);
+    //console.log(difElements[i]);
 }
 
-console.log(difElements);
+//console.log(difElements);
+
+//What about creating array from strings..haha
+let string  = "The photo that I took yestersday was pictureque,if I do say so myself";
+let stringToArray  = string.split(" ");
+//console.log(stringToArray);
+
+for(let i = 0  ; i < stringToArray.length ; i++)
+{
+    console.log(`Words' ${i} ${stringToArray[i]}`); 
+}
