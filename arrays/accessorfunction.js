@@ -4,7 +4,11 @@ var name = "Hla";
 var position = names.indexOf(name);
 if(position >= 0)
 {
-    console.log("Found " + name + " at position " + position)
+    //console.log("Found " + name + " at position " + position)
 }else{
-    console.log(name + " not found in array.");
+    //console.log(name + " not found in array.");
 }
+
+var namestr = names.join();
+console.log(namestr);
+console.log(names);
