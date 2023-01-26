@@ -112,3 +112,13 @@ console.log(names.sort());
 //sort() does not work so well
 var numbers = [100,2352,1,50];
 console.log(numbers.sort());
+
+
+function compare(num1,num2)
+{
+    return num1 - num2;
+}
+
+var numS = ['Argument',3,1,2,100,'',4,200];
+numS.sort(compare);
+console.log(numS);
