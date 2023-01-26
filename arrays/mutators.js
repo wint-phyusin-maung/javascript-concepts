@@ -102,5 +102,6 @@ for(var i  = 0 ; i < nums.length ; ++i){
 }
 
 var arrays = [1,2,3,4,5];
-arrays.shift();
+var newElements = [9,10,11];
+arrays.concat(newElements);
 console.log(arrays);
