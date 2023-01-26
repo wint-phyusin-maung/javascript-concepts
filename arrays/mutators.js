@@ -105,3 +105,10 @@ var arrays = [1,2,3,4,5];
 var newElements = [9,10,11];
 arrays.concat(newElements);
 console.log(arrays);
+console.log(arrays.reverse());
+
+var names = ['Maung','Khin','Aung','Sein'];
+console.log(names.sort());
+//sort() does not work so well
+var numbers = [100,2352,1,50];
+console.log(numbers.sort());
