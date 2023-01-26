@@ -100,4 +100,7 @@ for(var i  = 0 ; i < nums.length ; ++i){
     nums[i] = nums[i+1];
     console.log(nums[i]);
 }
-console.log(nums);
+
+var arrays = [1,2,3,4,5];
+arrays.shift();
+console.log(arrays);
