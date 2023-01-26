@@ -6,7 +6,7 @@ for(let a = 0 ; a < 20 ; a ++)
     if(a % 2 == 0)
     {
         array[a] = a;
-        console.log(array.push(20));//why I get 2,4,6,8,10,12,14,16,18,20
+        //console.log(array.push(20));//why I get 2,4,6,8,10,12,14,16,18,20
     }
 }
 
@@ -85,4 +85,11 @@ for(var i = N ; i >= 0 ; --i)
     nums[i] = nums[i - 1];
 }
 nums[0] = newnum;
+// console.log(nums);
+
+//adding elements to array
+nums.push(6);
+nums.unshift(0);
+//removing
+nums.pop();
 console.log(nums);
