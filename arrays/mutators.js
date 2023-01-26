@@ -91,5 +91,13 @@ nums[0] = newnum;
 nums.push(6);
 nums.unshift(0);
 //removing
-nums.pop();
+//nums.pop();
+//console.log(nums);
+
+//removing an array element without mutator functions
+console.log(nums);
+for(var i  = 0 ; i < nums.length ; ++i){
+    nums[i] = nums[i+1];
+    console.log(nums[i]);
+}
 console.log(nums);
