@@ -22,4 +22,11 @@ function add(total,currentvalue){
 }
 
 let sum = nums.reduce(add);
-console.log(sum);
+//console.log(sum);
+
+let array2  = [2,8,10];
+const initialValue = 2;
+const sumWithInitial = array2.reduce(
+    (ac,cur) => ac + cur, initialValue
+);
+console.log(sumWithInitial);
