@@ -16,3 +16,10 @@ if(even)
 
     console.log("not all numbers are even");
 }
+
+function add(total,currentvalue){
+    return total + currentvalue;
+}
+
+let sum = nums.reduce(add);
+console.log(sum);
