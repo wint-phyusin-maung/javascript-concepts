@@ -29,4 +29,9 @@ const initialValue = 2;
 const sumWithInitial = array2.reduce(
     (ac,cur) => ac + cur, initialValue
 );
-console.log(sumWithInitial);
+console.log(sumWithInitial); 
+
+
+let stringsArr = ["khin","khin","is","smart"];
+var sentence = stringsArr.reduceRight((ac,cu) => ac + cu);
+console.log(sentence);
