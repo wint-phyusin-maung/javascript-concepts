@@ -8,10 +8,10 @@ function even(num){
 }
 
 var nums = [1,2,3,4,5];
-nums.every(even);
+nums.some(even);
 if(even)
 {
-    console.log("all numbers are even");
+    console.log("some numbers are even");
 }else{
 
     console.log("not all numbers are even");
