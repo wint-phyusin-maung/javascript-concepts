@@ -35,3 +35,18 @@ console.log(sumWithInitial);
 let stringsArr = ["khin","khin","is","smart"];
 var sentence = stringsArr.reduceRight((ac,cu) => ac + cu);
 console.log(sentence);
+
+
+
+//Iterator Functions That Return a New Array
+
+//map() and filter()
+
+function curve(grade)
+{
+    return grade += 5;
+}
+
+var grade = [77,65,81,92,83];
+var newGrades = grade.map(curve);
+console.log(newGrades);
