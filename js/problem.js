@@ -9,3 +9,4 @@ function padIt(str,n){
 
 
 console.log(padIt("a", 3));
+console.log(padIt("a",5));
