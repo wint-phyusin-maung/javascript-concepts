@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "throw",
+  "version": "1.0.0",
+  "main": "trycatch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
